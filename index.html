@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Whack-a-Mole Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Start Screen -->
+<div id="startScreen">
+    <h1>Whack-a-Mole</h1>
+    <p>Click the mole to get points!</p>
+    <button id="startBtn">Start Game</button>
+</div>
+
+<!-- Game Screen -->
+<div id="gameScreen" style="display:none;">
+    <div>
+        Score: <span id="score">0</span> | Time: <span id="time">30</span>s
+    </div>
+    <div id="grid"></div>
+</div>
+
+<!-- Game Over Screen -->
+<div id="gameOverScreen" style="display:none;">
+    <h2>Game Over</h2>
+    <p>Your Score: <span id="finalScore">0</span></p>
+    <button id="restartBtn">Play Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
