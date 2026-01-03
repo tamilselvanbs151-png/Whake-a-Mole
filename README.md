@@ -53,4 +53,7 @@ Notes
 - Game is simple for learning purpose.  
 - Timer counts down from 30 seconds.  
 - Score will add when mole clicked.  
-- Sometimes mole appears very fast, need to click quick.  
+- Sometimes mole appears very fast, need to click quick.
+
+My Repo Link:
+https://github.com/tamilselvanbs151-png/Whake-a-Mole
